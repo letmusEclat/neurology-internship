@@ -1,0 +1,12 @@
+{
+  "name": "lumina-system",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev:web": "npm --prefix apps/web run dev",
+    "build:web": "npm --prefix apps/web run build",
+    "lint:web": "npm --prefix apps/web run lint",
+    "dev:api": "python3 apps/api/manage.py runserver",
+    "test:api": "python3 apps/api/manage.py test"
+  }
+}
